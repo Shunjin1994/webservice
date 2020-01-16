@@ -1,0 +1,1038 @@
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：「　商品詳細ページ　
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：セッションID：v5tj1k34cmprhkmvskll58upc5
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1578033695
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1578036012
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1578037295
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：商品情報を取得します。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：商品ID：2
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：bbbbbbbbbbbbbbbbbbbbb
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：0
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：閲覧履歴があるか確認します。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：商品ID：2
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => テスト
+    [comment] => あああああああああああああああああああああああ
+    [price] => 30000
+    [pic1] => uploads/d995dde583aca688231880e894f190a738274667.jpeg
+    [pic2] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+    [pic3] => uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg
+    [user_id] => 4
+    [create_date] => 2019-11-07 23:52:52
+    [update_date] => 2019-12-28 23:11:18
+    [delete_flg] => 0
+    [category] => PC
+)
+
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：DB更新です。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：SQL：UPDATE history SET update_date = :date WHERE user_id = :user_id AND product_id = :p_id
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：流し込みデータ：Array
+(
+    [:user_id] => 2
+    [:p_id] => 2
+    [:date] => 2020-01-03 16:20:12
+)
+
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：SQL：SELECT product_id from history WHERE user_id = :u_id ORDER BY update_date DESC
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：商品ID：2
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：特に気に入ってません
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：aaaaaaaaaaaaaaaaaaaa
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：0
+[03-Jan-2020 16:20:12 Asia/Tokyo] デバッグ：xxxxx
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：「　マイページ　
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：セッションID：hg4p5gkqdr8253vibrgs0qd8u3
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1578033695
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1578036026
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1578037295
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：自分の閲覧履歴を取得します。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：自分の購入履歴を取得します。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 3
+            [name] => テスト
+            [category_id] => 2
+            [comment] => test
+            [price] => 3000
+            [pic1] => uploads/8281e64d6a320e1a6de97f428e968a9d08f6b6f9.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delivery_day] => 
+            [delete_flg] => 0
+            [create_date] => 2019-11-10 16:18:56
+            [update_date] => 2019-12-20 23:24:36
+        )
+
+    [1] => Array
+        (
+            [id] => 7
+            [name] => テスト
+            [category_id] => 2
+            [comment] => 靴
+            [price] => 12000
+            [pic1] => uploads/8281e64d6a320e1a6de97f428e968a9d08f6b6f9.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delivery_day] => 1
+            [delete_flg] => 1
+            [create_date] => 2019-12-15 11:00:31
+            [update_date] => 2019-12-29 12:44:37
+        )
+
+)
+
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 123
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:41:55
+            [update_date] => 2019-12-29 12:41:55
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 124
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 7
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:44:37
+            [update_date] => 2019-12-29 12:44:37
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 125
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:46:50
+            [update_date] => 2019-12-29 12:46:50
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 126
+            [sale_user] => 8
+            [buy_user] => 2
+            [product_id] => 8
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:47:40
+            [update_date] => 2019-12-29 12:47:40
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 127
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:48:27
+            [update_date] => 2019-12-29 12:48:27
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 128
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:49:22
+            [update_date] => 2019-12-29 12:49:22
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 129
+            [sale_user] => 9
+            [buy_user] => 2
+            [product_id] => 10
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 15:51:58
+            [update_date] => 2019-12-29 15:51:58
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 130
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 17:44:55
+            [update_date] => 2019-12-29 17:44:55
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 1
+            [user_id] => 4
+            [delete_flg] => 1
+            [create_date] => 2019-11-03 14:35:26
+            [update_date] => 2019-12-29 17:44:55
+            [id] => 1
+            [name] => iPhone
+            [category_id] => 1
+            [comment] => test
+            [price] => 50000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+)
+
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：取得した閲覧履歴データ：Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [user_id] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-11-07 23:52:52
+            [update_date] => 2019-12-28 23:11:18
+            [name] => テスト
+            [category_id] => 2
+            [comment] => あああああああああああああああああああああああ
+            [price] => 30000
+            [pic1] => uploads/d995dde583aca688231880e894f190a738274667.jpeg
+            [pic2] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic3] => uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg
+            [delivery_day] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 1
+            [user_id] => 4
+            [product_id] => 1
+            [delete_flg] => 1
+            [create_date] => 2019-11-03 14:35:26
+            [update_date] => 2019-12-29 17:44:55
+            [name] => iPhone
+            [category_id] => 1
+            [comment] => test
+            [price] => 50000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+)
+
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：取得した購入履歴データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [user_id] => 4
+            [product_id] => 1
+            [delete_flg] => 1
+            [create_date] => 2019-11-03 14:35:26
+            [update_date] => 2019-12-29 17:44:55
+            [name] => iPhone
+            [category_id] => 1
+            [comment] => test
+            [price] => 50000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [user_id] => 9
+            [product_id] => 10
+            [delete_flg] => 1
+            [create_date] => 2019-12-21 21:51:11
+            [update_date] => 2019-12-29 15:51:58
+            [name] => test
+            [category_id] => 1
+            [comment] => yyyyyyyyyyyyyyy
+            [price] => 77777
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 7
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [user_id] => 8
+            [product_id] => 8
+            [delete_flg] => 1
+            [create_date] => 2019-12-16 21:44:46
+            [update_date] => 2019-12-29 12:47:40
+            [name] => テスト
+            [category_id] => 1
+            [comment] => こんにちは
+            [price] => 150000
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 15
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [user_id] => 4
+            [product_id] => 9
+            [delete_flg] => 1
+            [create_date] => 2019-12-21 00:02:37
+            [update_date] => 2019-12-29 12:46:50
+            [name] => asasas
+            [category_id] => 1
+            [comment] => qwqw
+            [price] => 13000
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [user_id] => 2
+            [product_id] => 7
+            [delete_flg] => 1
+            [create_date] => 2019-12-15 11:00:31
+            [update_date] => 2019-12-29 12:44:37
+            [name] => テスト
+            [category_id] => 2
+            [comment] => 靴
+            [price] => 12000
+            [pic1] => uploads/8281e64d6a320e1a6de97f428e968a9d08f6b6f9.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 1
+        )
+
+    [7] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+)
+
+[03-Jan-2020 16:20:26 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：「　商品詳細ページ　
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：セッションID：voot6eq2ptpam7rkgnu4qvof1m
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1578036026
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1578036029
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1578039626
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：商品情報を取得します。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：商品ID：1
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：bbbbbbbbbbbbbbbbbbbbb
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：1
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：閲覧履歴があるか確認します。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：商品ID：1
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => iPhone
+    [comment] => test
+    [price] => 50000
+    [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [create_date] => 2019-11-03 14:35:26
+    [update_date] => 2019-12-29 17:44:55
+    [delete_flg] => 1
+    [category] => スマートフォン
+)
+
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：DB更新です。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：SQL：UPDATE history SET update_date = :date WHERE user_id = :user_id AND product_id = :p_id
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：流し込みデータ：Array
+(
+    [:user_id] => 2
+    [:p_id] => 1
+    [:date] => 2020-01-03 16:20:29
+)
+
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：SQL：SELECT product_id from history WHERE user_id = :u_id ORDER BY update_date DESC
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：商品ID：1
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：お気に入りです
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：aaaaaaaaaaaaaaaaaaaa
+[03-Jan-2020 16:20:29 Asia/Tokyo] デバッグ：1
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：「　マイページ　
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：セッションID：90pvl612fdo7p18klubbrj2u0g
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1578036026
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1578036032
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1578039626
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：自分の閲覧履歴を取得します。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：自分の購入履歴を取得します。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：ユーザーID：2
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：クエリ成功。
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 3
+            [name] => テスト
+            [category_id] => 2
+            [comment] => test
+            [price] => 3000
+            [pic1] => uploads/8281e64d6a320e1a6de97f428e968a9d08f6b6f9.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delivery_day] => 
+            [delete_flg] => 0
+            [create_date] => 2019-11-10 16:18:56
+            [update_date] => 2019-12-20 23:24:36
+        )
+
+    [1] => Array
+        (
+            [id] => 7
+            [name] => テスト
+            [category_id] => 2
+            [comment] => 靴
+            [price] => 12000
+            [pic1] => uploads/8281e64d6a320e1a6de97f428e968a9d08f6b6f9.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delivery_day] => 1
+            [delete_flg] => 1
+            [create_date] => 2019-12-15 11:00:31
+            [update_date] => 2019-12-29 12:44:37
+        )
+
+)
+
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 123
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:41:55
+            [update_date] => 2019-12-29 12:41:55
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 124
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 7
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:44:37
+            [update_date] => 2019-12-29 12:44:37
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 125
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:46:50
+            [update_date] => 2019-12-29 12:46:50
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 126
+            [sale_user] => 8
+            [buy_user] => 2
+            [product_id] => 8
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:47:40
+            [update_date] => 2019-12-29 12:47:40
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 127
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:48:27
+            [update_date] => 2019-12-29 12:48:27
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 128
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 12:49:22
+            [update_date] => 2019-12-29 12:49:22
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 129
+            [sale_user] => 9
+            [buy_user] => 2
+            [product_id] => 10
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 15:51:58
+            [update_date] => 2019-12-29 15:51:58
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 130
+            [sale_user] => 4
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-12-29 17:44:55
+            [update_date] => 2019-12-29 17:44:55
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 1
+            [user_id] => 4
+            [delete_flg] => 1
+            [create_date] => 2019-11-03 14:35:26
+            [update_date] => 2019-12-29 17:44:55
+            [id] => 1
+            [name] => iPhone
+            [category_id] => 1
+            [comment] => test
+            [price] => 50000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+)
+
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：取得した閲覧履歴データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [user_id] => 4
+            [product_id] => 1
+            [delete_flg] => 1
+            [create_date] => 2019-11-03 14:35:26
+            [update_date] => 2019-12-29 17:44:55
+            [name] => iPhone
+            [category_id] => 1
+            [comment] => test
+            [price] => 50000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [user_id] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-11-07 23:52:52
+            [update_date] => 2019-12-28 23:11:18
+            [name] => テスト
+            [category_id] => 2
+            [comment] => あああああああああああああああああああああああ
+            [price] => 30000
+            [pic1] => uploads/d995dde583aca688231880e894f190a738274667.jpeg
+            [pic2] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic3] => uploads/0cc2e964fc3e7fc12d972d0f9835b9d794bab4e3.jpeg
+            [delivery_day] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+)
+
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：取得した購入履歴データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [user_id] => 4
+            [product_id] => 1
+            [delete_flg] => 1
+            [create_date] => 2019-11-03 14:35:26
+            [update_date] => 2019-12-29 17:44:55
+            [name] => iPhone
+            [category_id] => 1
+            [comment] => test
+            [price] => 50000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [user_id] => 9
+            [product_id] => 10
+            [delete_flg] => 1
+            [create_date] => 2019-12-21 21:51:11
+            [update_date] => 2019-12-29 15:51:58
+            [name] => test
+            [category_id] => 1
+            [comment] => yyyyyyyyyyyyyyy
+            [price] => 77777
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 7
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [user_id] => 8
+            [product_id] => 8
+            [delete_flg] => 1
+            [create_date] => 2019-12-16 21:44:46
+            [update_date] => 2019-12-29 12:47:40
+            [name] => テスト
+            [category_id] => 1
+            [comment] => こんにちは
+            [price] => 150000
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 15
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [user_id] => 4
+            [product_id] => 9
+            [delete_flg] => 1
+            [create_date] => 2019-12-21 00:02:37
+            [update_date] => 2019-12-29 12:46:50
+            [name] => asasas
+            [category_id] => 1
+            [comment] => qwqw
+            [price] => 13000
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 2
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [user_id] => 2
+            [product_id] => 7
+            [delete_flg] => 1
+            [create_date] => 2019-12-15 11:00:31
+            [update_date] => 2019-12-29 12:44:37
+            [name] => テスト
+            [category_id] => 2
+            [comment] => 靴
+            [price] => 12000
+            [pic1] => uploads/8281e64d6a320e1a6de97f428e968a9d08f6b6f9.jpeg
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 1
+        )
+
+    [7] => Array
+        (
+            [id] => 6
+            [user_id] => 4
+            [product_id] => 6
+            [delete_flg] => 1
+            [create_date] => 2019-11-25 23:04:46
+            [update_date] => 2019-12-29 12:41:55
+            [name] => joi
+            [category_id] => 1
+            [comment] => ieeeeeeeeeeeeeei
+            [price] => 8000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [delivery_day] => 3
+        )
+
+)
+
+[03-Jan-2020 16:20:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：「　マイページ　
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：セッションID：u3g8s895a7sfolrtv7oheikae1
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1578584968
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Jan-2020 00:49:28 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/webservice/webservice_homework/mypage.php on line 18
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：ユーザーID：
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：クエリ成功。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：クエリ成功。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：ユーザーID：
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：クエリ成功。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：自分の閲覧履歴を取得します。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：ユーザーID：
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：クエリ成功。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：自分の購入履歴を取得します。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：ユーザーID：
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：クエリ成功。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：取得した閲覧履歴データ：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：取得した購入履歴データ：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：「　ログインページ　
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：セッションID：rptk69dvr8910j6h93kiv7o8lc
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1578584968
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[10-Jan-2020 00:49:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
